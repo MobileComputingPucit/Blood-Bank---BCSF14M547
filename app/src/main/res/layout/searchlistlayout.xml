@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="70dp"
+    android:background="@color/TextGrey"
+    android:layout_marginBottom="5dp"
+    >
+
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/ImageView"
+        android:src="@drawable/ic_person_black"/>
+
+    <TextView
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:id="@+id/LayName"
+        android:layout_marginBottom="5dp"
+        android:gravity="center"
+        android:textColor="@color/Black"
+        android:layout_alignTop="@+id/ImageView"
+        android:layout_toEndOf="@+id/ImageView"
+        android:layout_marginStart="25dp"
+        android:background="@color/LightGrey"/>
+
+    <TextView
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:gravity="center"
+        android:id="@+id/LayBlood"
+        android:textColor="@color/Black"
+        android:layout_alignBottom="@+id/ImageView"
+        android:layout_alignStart="@+id/LayName"
+        android:background="@color/LightGrey"/>
+
+    <TextView
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:gravity="center"
+        android:id="@+id/LayCountry"
+        android:textColor="@color/Black"
+        android:layout_marginTop="5dp"
+        android:layout_alignBaseline="@+id/LayBlood"
+        android:layout_alignBottom="@+id/LayBlood"
+        android:layout_alignEnd="@+id/LayName"
+        android:background="@color/LightGrey"/>
+
+</RelativeLayout>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/BackGrey"
+    android:padding="5dp"
+    tools:context="com.example.umaransari.myproject.SearchResult">
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:layout_marginBottom="15dp"
+    android:background="@color/LightRed"
+    android:textSize="40sp"
+    android:text="Donors"
+    android:gravity="center"
+    android:textColor="@color/TextGrey"
+    />
+    <ListView
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/ListView"
+        android:layout_gravity="center"
+        android:background="@color/TextGrey"></ListView>
+</LinearLayout>
